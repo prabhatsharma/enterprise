@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    </head>
+    <body ng-app="enterprise" id="home">
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="#" class="btn btn-default">Home</a>
+                    <a href="#/resources" class="btn btn-default">Resources</a>
+                    <a href="#/addResources" class="btn btn-default">Add Resource</a>
+                </div>
+            </div>
+            <br>
+
+            <div class="content">
+                <div ng-view></div>
+            </div>
+            
+        </div>
+        
+        <!--<script src="bower_components/jquery/dist/jquery.js"></script>-->
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-resource/angular-resource.js"></script>
+        <script src="bower_components/angular-route/angular-route.js"></script>
+        <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+        <script src="bower_components/angular-animate/angular-animate.js"></script>
+        
+        
+        <script src="scripts/app.js"></script>
+        <script src="scripts/services/projectService.js"></script>
+        <script src="scripts/controllers/projectController.js"></script>
+        <script src="scripts/controllers/addProjectController.js"></script>
+        <script src="scripts/controllers/editProjectController.js"></script>
+    </body>
+</html>

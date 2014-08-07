@@ -1,0 +1,23 @@
+<div class="modal-body" ng-controller="addProjectController">
+    <form>
+        <div class="row">
+            <div class="col-lg-2">
+                <label for="projectName"> Project Name</label>
+            </div>
+            <div class="col-lg-4">
+                <input name="projectName" ng-model="newProject.projectName" class="form-control" />
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-2">
+                <label for="wbs"> Project WBS</label>
+            </div>
+            <div class="col-lg-4">
+                <input name="wbs" ng-model="newProject.WBS" class="form-control" />
+            </div>
+        </div>
+        <a ng-click="saveData(newProject)" class="btn btn-primary">Save data</a>
+    </form>
+    Base data is: {{newProject}}
+</div>

@@ -1,0 +1,33 @@
+{
+  "name": "enterprise",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "^0.5.1",
+    "grunt-karma": "^0.8.3",
+    "grunt-protractor-runner": "^1.1.0",
+    "gulp": "^3.8.6",
+    "gulp-jshint": "^1.8.0",
+    "gulp-karma": "0.0.4",
+    "gulp-protractor": "0.0.11",
+    "karma": "^0.12.17",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-coverage": "^0.2.4",
+    "karma-jasmine": "^0.1.5",
+    "karma-script-launcher": "~0.1.0",
+    "karma-story-reporter": "~0.2.2",
+    "protractor": "^1.0.0"
+  },
+  "scripts": {
+    "test": "karma start"
+  },
+  "author": "Prabhat Sharma <hi.prabhat@gmail.com>",
+  "license": "ISC"
+}
